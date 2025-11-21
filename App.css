@@ -1,0 +1,49 @@
+/* === Global Font Size === */
+
+body,
+html {
+  font-size: 17px;
+}
+
+p,
+span,
+a,
+li,
+button,
+input,
+textarea,
+label,
+div,
+section,
+table,
+td,
+th,
+tr,
+form,
+fieldset,
+legend {
+  font-size: 17px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+}
+
+.text-xs,
+.text-sm,
+.text-base,
+.text-lg,
+.text-xl,
+.text-2xl {
+  font-size: 17px !important;
+}
+
+code,
+pre {
+  font-size: 17px !important;
+}

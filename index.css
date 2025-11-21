@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === ГЛОБАЛЬНЫЕ СТИЛИ ДЛЯ ШРИФТОВ === */
+
+/* Устанавливаем 17px для body и всех элементов */
+:root {
+  font-size: 17px;
+}
+
+body,
+html {
+  font-size: 17px;
+}
+
+* {
+  font-size: 17px;
+}
+
+/* Исключения: заголовки остаются большие */
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1.1rem;
+}
+
+/* Переопределяем Tailwind размеры */
+@layer components {
+  .text-xs {
+    @apply !text-base;
+    font-size: 17px !important;
+  }
+
+  .text-sm {
+    @apply !text-base;
+    font-size: 17px !important;
+  }
+
+  .text-base {
+    font-size: 17px !important;
+  }
+
+  .text-lg {
+    font-size: 17px !important;
+  }
+
+  .text-xl {
+    font-size: 17px !important;
+  }
+
+  .text-2xl {
+    font-size: 17px !important;
+  }
+}
